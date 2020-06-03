@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  height: 75px;
+  width: 100vw;
+  align-items: center;
+  background-color: coral;
+  padding: 0 50px;
+}
+
+.header-img {
+  width: 100px;
+}
+
+#header-img {
+  height: 50px;
+}
+
+.nav-link {
+  color: black;
+  font-size: 1.3rem;
+}
