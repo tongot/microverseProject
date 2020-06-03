@@ -5,6 +5,19 @@ header {
   align-items: center;
   background-color: coral;
   padding: 0 50px;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+}
+
+.container {
+  position: relative;
+  top: 75px;
+}
+
+.card {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .header-img {
@@ -18,4 +31,8 @@ header {
 .nav-link {
   color: black;
   font-size: 1.3rem;
+}
+
+.footer {
+  padding: 10px;
 }
